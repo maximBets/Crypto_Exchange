@@ -1,0 +1,17 @@
+.buttonCustom {
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  background: none;
+  outline: none;
+  min-width: 205px;
+  height: 50px;
+  background-color: #11b3fe;
+  font-size: 16px;
+  border-radius: 5px;
+  color: white;
+}
+
+.buttonCustom:hover {
+  background-color: #0095e0;
+}

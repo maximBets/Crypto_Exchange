@@ -1,0 +1,37 @@
+.contentMain {
+  margin: 30px 50px 0px 50px;
+  width: 100%;
+}
+
+.selectInputWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.swapContainer {
+  display: flex;
+  align-items: center;
+  margin: 0 27px 0 27px;
+}
+
+.selectInputsWrapper {
+  display: flex;
+  margin-top: 60px;
+}
+
+.title {
+  font-weight: 300;
+  font-size: 50px;
+}
+
+.text {
+  font-size: 20px;
+  margin-top: 16px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}

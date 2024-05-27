@@ -1,0 +1,23 @@
+.addressWrapper {
+  margin-top: 32px;
+}
+
+.exchangeInputWrapper {
+  display: flex;
+  max-width: 960px;
+}
+
+.marginInput {
+  margin-right: 32px;
+}
+
+.errorText {
+  margin-top: 8px;
+  color: #e03f3f;
+}
+
+.buttonWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
