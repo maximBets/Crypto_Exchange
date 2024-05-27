@@ -29,8 +29,7 @@
 }
 
 .selectBox span {
-  display: flex;
-  align-items: center;
+  display: block;
   font-size: 16px;
 }
 
@@ -73,6 +72,16 @@
 }
 
 .ticker {
+  margin-left: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 70px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.tickerOption {
   margin-left: 12px;
 }
 

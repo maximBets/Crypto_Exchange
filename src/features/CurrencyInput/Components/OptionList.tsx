@@ -24,7 +24,9 @@ const OptionList: React.FC<OptionListProps> = ({
           onClick={() => onOptionClick(option)}
         >
           <img loading='lazy' src={option.image} alt={option.ticker} />
-          <span className={styles.ticker}>{option.ticker.toUpperCase()}</span>
+          <span className={styles.tickerOption}>
+            {option.ticker.toUpperCase()}
+          </span>
           <span className={styles.nameCryptocurrency}>{option.name}</span>
         </div>
       ))}
