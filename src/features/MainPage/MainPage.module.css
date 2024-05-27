@@ -22,11 +22,11 @@
 .title {
   font-weight: 300;
   font-size: 50px;
+  margin-bottom: 16px;
 }
 
 .text {
   font-size: 20px;
-  margin-top: 16px;
 }
 
 .loading {
